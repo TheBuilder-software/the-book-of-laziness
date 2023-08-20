@@ -1,2 +1,4 @@
-# the-book-of-laziness
-yes
+# The Book of Laziness
+
+## Programs
+[xclip](https://github.com/astrand/xclip)
