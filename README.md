@@ -4,20 +4,13 @@
 
 ---
 
-## Programs
-[xclip](https://github.com/astrand/xclip)
-
----
-
 ## Scripts
 
 ```bash
 # Fuzzy search for directories
 alias goto="cd; cd \"\$(fd -t d | fzf)\""
-```
 
-```bash
-# Super safe g++
+# Super epic compiler flags
 alias g++="g++  \
 	-fmax-errors=2 \
 	-Wpedantic \
@@ -26,9 +19,18 @@ alias g++="g++  \
 	-Werror \
 	-Wconversion \
 	-Wshadow "
+
+# Generate a password
+pwgen -N 1 -n 12
+
+# Display your keyboard and mouse clicks
+screenkey -M --persist --no-whitespace
 ```
 
---- 
+### 
 
-## Media Standards
-
+## Programs
+[xclip](https://github.com/astrand/xclip)
+tesseract
+[entr](https://eradman.com/entrproject/)
+[xargs](https://en.wikipedia.org/wiki/Xargs)
