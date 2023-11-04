@@ -30,7 +30,8 @@ screenkey -M --persist --no-whitespace
 ### 
 
 ## Programs
-[xclip](https://github.com/astrand/xclip)
-tesseract
-[entr](https://eradman.com/entrproject/)
-[xargs](https://en.wikipedia.org/wiki/Xargs)
+
+* [xclip](https://github.com/astrand/xclip)
+* tesseract
+* [entr](https://eradman.com/entrproject/)
+* [xargs](https://en.wikipedia.org/wiki/Xargs)
