@@ -25,13 +25,9 @@ pwgen -N 1 -n 12
 
 # Display your keyboard and mouse clicks
 screenkey -M --persist --no-whitespace
+
+# Play all mp4 files in the current and sub directories in sorted order
+find ./ -iname "*.mp4" -print0 | sort -gz | xargs -0 mpv
+
 ```
-
 ### 
-
-## Programs
-
-* [xclip](https://github.com/astrand/xclip)
-* tesseract
-* [entr](https://eradman.com/entrproject/)
-* [xargs](https://en.wikipedia.org/wiki/Xargs)
