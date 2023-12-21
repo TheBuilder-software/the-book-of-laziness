@@ -1,6 +1,6 @@
 # The Book of Laziness
 
-![fish](./static/img/image.png)
+<img src="./static/img/image.png" data-canonical-src="./static/img/image.png" width="200"/>
 
 ---
 
